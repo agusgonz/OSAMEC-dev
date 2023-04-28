@@ -6,12 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      primaryCol: '#1B262C',
-      darkBlueCol: '#0F4C75',
-      blueCol: '#3282B8',
-      lightBlueCol: '#BBE1FA',
-    },
+    extend: {
+      colors: {
+        primaryCol: '#1B262C',
+        darkBlueCol: '#0F4C75',
+        blueCol: '#3282B8',
+        lightBlueCol: '#BBE1FA',
+        orange: '#EF7C12',
+      },
+      backdropBlur: {
+        xs: '2px'
+      }
+    }
   },
   plugins: [],
 }
