@@ -10,11 +10,11 @@ const SecondaryLink = () => {
     setTimeout(() => setActive(false), 2000)
   }
   return (
-    <Link href='/' className='relative group top-2' onClick={activeHandler}>
+    <Link href='#nosotros' className='relative group top-2' onClick={activeHandler}>
       <div
         className={`
           h-14
-          bg-orange
+          bg-orangeCol
           relative
           float-right
           inline

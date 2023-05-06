@@ -29,16 +29,16 @@ const index = () => {
   return (
     <>
       <nav className={`
-        fixed 
+        absolute 
         w-full 
         top-0 
         left-0
         transition-all
         ease-in-out
         z-20
-        backdrop-blur-md
-        bg-[#ffffff46]
+        bg-[#ffffff]
         ${open ? 'h-100' : ''}
+        
         `}>
         <div 
           className='flex place-items-center justify-between'
@@ -64,6 +64,7 @@ const index = () => {
               return (
                 <Link 
                   href={section.link} 
+                  key={section.name}
                   className={`
                     hover:underline 
                     lg:text-lg
@@ -77,7 +78,7 @@ const index = () => {
             })}
           </div>
 
-          {/* Celular */}
+          {/* Phone */}
           <button
             onClick={() => setOpen(prev => !prev)}
             className='
@@ -98,13 +99,14 @@ const index = () => {
             <ul>
               {sections.map((section, i) => {
                 return (
-                  <div key={i}>
+                  <div key={section.name}>
                     <Link href={section.link}>
                       <li
                         className='
                           text-center
                           py-3
                           hover:bg-[#00000023]
+                          text-xl
                         '
                         >
                         {section.name}

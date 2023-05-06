@@ -12,10 +12,21 @@ module.exports = {
         darkBlueCol: '#0F4C75',
         blueCol: '#3282B8',
         lightBlueCol: '#BBE1FA',
-        orange: '#EF7C12',
+        orangeCol: '#EF7C12',
+        grayCol:'#eefcff77',
       },
       backdropBlur: {
         xs: '2px'
+      },
+      keyframes: {
+        dividermove: {
+          '0%': { transform: 'translate(0px)' },
+          '100%': { transform: 'translate(-30px, 0px)' },
+          
+        }
+      },
+      animation: {
+        'divider-animation': 'dividermove 2s linear infinite'
       }
     }
   },

@@ -4,6 +4,7 @@ import ContactoButton from '../ContactoButton'
 import MainLink from './MainLink'
 import SecondaryLink from './SecondaryLink'
 
+
 const index = () => {
   return (
     <div className='h-screen flex flex-col justify-center gap-3'>
@@ -32,10 +33,11 @@ const index = () => {
             font-bold 
             relative
             bottom-7
+            tracking-wide
           '>
-            <span className='text-orange'>O</span>rganizacion al 
-            <span className='text-orange'> S</span>ervicio del
-            <span className='text-orange'> A</span>utomotor
+            <span className='text-orangeCol'>O</span>rganizacion al 
+            <span className='text-orangeCol'> S</span>ervicio del
+            <span className='text-orangeCol'> A</span>utomotor
           </div> 
       </div> 
       <div className='overflow-hidden relative'>

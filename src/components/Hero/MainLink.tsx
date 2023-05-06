@@ -13,7 +13,7 @@ const MainLink = () => {
   }
 
   return (
-    <Link href='/' className='group' onClick={activeHandler}
+    <Link href='#contacto' className='group' onClick={activeHandler}
     >
       <div
         className={`
