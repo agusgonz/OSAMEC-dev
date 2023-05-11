@@ -14,7 +14,7 @@ const index = () => {
           flex-col
           justify-center
           content-center
-          
+          bg-white
           py-14
           lg:py-16
         '>
