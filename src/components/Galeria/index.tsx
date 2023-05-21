@@ -15,9 +15,19 @@ const index = () => {
           px-5
           py-14
           lg:px-10
+          
         '
       >
-        <h2 className='text-4xl pb-10'>Conoce mas...</h2>
+        <h2 className='
+
+          text-3xl
+          sm:text-4xl 
+          pb-5
+          text-center 
+          border-b-2 
+          mb-5 
+          border-primaryCol
+        '>Conoce mas...</h2>
         <div
           className='
           overflow-hidden
