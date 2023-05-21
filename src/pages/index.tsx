@@ -20,8 +20,8 @@ export default function Home() {
       <Divider toId={'nosotros'}/>
       <Nosotros />
       <Galeria />
-      <Reviews />
-      <Mapa />
+      {/* <Reviews />
+      <Mapa /> */}
       <Contacto />
       
     </div>
