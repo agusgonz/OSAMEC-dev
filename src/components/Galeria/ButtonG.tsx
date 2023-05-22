@@ -29,7 +29,7 @@ const ButtonG: React.FC<ButtonGProps> = ({
       <button
         className='
           w-full
-          focus:outline
+          outline-none
         '
         onClick={onClick}
       >

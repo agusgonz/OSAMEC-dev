@@ -8,7 +8,6 @@ import UnderlineText from '../UnderlineText'
 const index = () => {
 
   const windowSize = useWindowSize()
-  console.log(windowSize.width)
 
   const smallMapSize = {
     width: `${windowSize.width <= 450 ? '300px' : '400px'}`,
@@ -20,7 +19,7 @@ const index = () => {
   }
 
   return (
-    <SectionLayer title='Nuestro Local' className={'bg-blue-200'} id='mapa'>
+    <SectionLayer title='Nuestro Taller' className={'bg-blue-200'} id='mapa'>
       <div
         className='
           flex

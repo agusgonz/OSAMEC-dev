@@ -13,18 +13,23 @@ const Contenedor = () => {
   const [images, setImages] = useState(() => {
     const imgs = [
       {
-        alt: 'inyector bomba',
-        src: '/images/inyector-bomba.jpg',
+        alt: 'Taller de frente',
+        src: '/images/tallerFrente.jpg',
+      },
+      {
+        alt: 'Recepcion',
+        src: '/images/recepcion.jpg',
+
       },
       {
         alt: 'maquinaria del taller',
         src: '/images/maquina.jpg',
-
       },
       {
-        alt: 'maquinaria del taller2',
-        src: '/images/maquina.jpg',
+        alt: 'Taller por dentro',
+        src: '/images/sala.jpg',
       },
+     
     ]
 
     return imgs.map((img, index) => {

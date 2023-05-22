@@ -47,7 +47,7 @@ const index = () => {
           <Link href='/' className='ml-3 '>
             <Image 
               className='lg:w-[80px]'
-              src='/icons/logo-azul-nuevo.svg'
+              src='/icons/media/bosh-logo.svg'
               width='70'
               height='90'
               alt='logo'
@@ -67,7 +67,7 @@ const index = () => {
                   href={section.link} 
                   key={section.name}
                   className={`
-                    hover:underline 
+                    hover:underline
                     lg:text-lg
                     py-1
                     px-3

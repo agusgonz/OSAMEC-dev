@@ -14,13 +14,16 @@ const center = {
 };
 
 const onLoad = (marker: any) => {
-  console.log('marker: ', marker)
+  // console.log('marker: ', marker)
 }
 
 function MyMap({size}: MyMapProps) {
+  {
+    if (process.env.key === undefined) return <div>Error to load map</div>
+  }
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyDFBXjuZbFK7hw6oJuSUKuq0uQI6UCy7_o"
+      googleMapsApiKey={process.env.key}
     >
       <GoogleMap
         mapContainerStyle={size}

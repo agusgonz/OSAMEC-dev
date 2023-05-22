@@ -46,7 +46,7 @@ const index = () => {
       <div className='hidden sm:inline-block w-full' >
         <Image
           className='inline h-full w-full object-cover' 
-          src='/images/tallerFrente.jpg'
+          src='/images/motor-photo.jpg'
           width={400}
           height={400}
           alt='taller'

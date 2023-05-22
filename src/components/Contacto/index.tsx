@@ -24,7 +24,7 @@ const index = () => {
     {
       name: 'Correo',
       icon: '/icons/media/mail-blanco.svg',
-      href: 'https://mail.google.com/mail/#compose',
+      href: 'mailto:osameclaboratorio@gmail.com',
       colorBg: 'darkBlueCol',
       colorTx: 'white',
     },
