@@ -2,7 +2,7 @@ import React from 'react'
 import LinkCont from './LinkCont'
 
 import { v4 as uuid } from 'uuid';
-import DayRow from './DayRow';
+import SectionLayer from '../SectionLayer';
 
 const index = () => {
 
@@ -45,19 +45,11 @@ const index = () => {
   ]
 
   return (
-    <div 
+    <SectionLayer title={'Contactanos'} 
+      className={'bg-primaryCol text-white '}
+      titleClass={'text-white border-white'}
       id='contacto'
-      className='
-        bg-primaryCol
-        text-gray-50
-        px-5
-        py-14
-        lg:px-10
-      '>
-      <div className='divide-y-2'>
-        <h2 className='text-4xl pb-10 text-center'>Contactanos</h2>
-
-
+    >
         <ul
           className='
             flex
@@ -85,6 +77,7 @@ const index = () => {
           }
         </ul>
         {/* <div>
+          <h3>Horarios</h3>
           <div
             className='
               flex
@@ -105,8 +98,7 @@ const index = () => {
             <DayRow day={'Domingo'} closed/>
           </div>
         </div> */}
-      </div>
-    </div>
+    </SectionLayer>
   )
 }
 

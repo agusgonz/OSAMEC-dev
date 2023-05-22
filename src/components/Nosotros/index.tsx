@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import UnderlineText from '../UnderlineText'
 
 const index = () => {
   return (
@@ -25,16 +26,13 @@ const index = () => {
           <div className='border-b-2 border-orangeCol w-min'>Nosotros</div>
         </h1> */}
         <div className='pt-5'>
-          <div className='decoration-orangeCol underline pb-5 xl:pb-6 text-2xl xl:text-3xl'>
-            <Image 
-              className='inline'
-              src='/icons/media/star-orange.svg'
-              width={20}
-              height={20}
-              alt='star'
-            />
-            Taller integral con más de 50 años de experiencia en el rubro.
-          </div> 
+          <UnderlineText 
+            underlineColor={'orangeCol'} 
+            imageSrc={'/icons/media/star-orange.svg'}
+            className=''
+            textBig
+          >Taller integral con más de 50 años de experiencia en el rubro.</UnderlineText>
+
           <div className='text-gray-700 text-xl xl:text-2xl'>
             Nuestro concepto de reparación "patente a patente", capacitación constante, reparaciones rápidas, certeras y garantizadas, hacen de nuestra empresa un lugar de confianza, cómodo y seguro para nuestros clientes.
             <div className='underline text-xl py-3 xl:py-5 xl:text-2xl'>‘‘Somos el taller de las cosas bien hechas‘‘.</div>

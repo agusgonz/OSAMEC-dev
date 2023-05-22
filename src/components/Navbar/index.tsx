@@ -8,15 +8,15 @@ import styles from './navbar.module.css'
 const sections = [
   {
     name: 'Contacto',
-    link: '/'
+    link: '/#contacto'
   },
   {
-    name: 'Nosotros',
-    link: '/'
+    name: 'Mapa',
+    link: '/#mapa'
   },
   {
-    name: 'Servicios',
-    link: '/'
+    name: 'Galería',
+    link: '/#galeria'
   },
 ]
 

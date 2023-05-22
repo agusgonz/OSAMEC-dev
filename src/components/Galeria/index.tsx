@@ -8,7 +8,7 @@ const index = () => {
 
   return (
     <>
-      <SectionLayer title='Galería' className={'bg-blue-100'}>
+      <SectionLayer title='Galería' className={'bg-blue-100'} id='galeria'>
         <div
             className='
               overflow-hidden

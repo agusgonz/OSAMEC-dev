@@ -3,16 +3,21 @@ import React, { ReactNode } from 'react'
 interface SectionLayer {
   children: ReactNode
   title: string
-  className: string
+  titleClass?: string
+  className?: string
+  id?: string
 }
 
 export default function SectionLayer({
   children,
   title,
-  className
+  className,
+  titleClass,
+  id
 }: SectionLayer) {
   return (
     <section
+      id={id}
       className={`
         w-full
         
@@ -23,7 +28,7 @@ export default function SectionLayer({
         ${className}
       `}
   >
-    <h2 className='
+    <h2 className={`
       text-3xl
       sm:text-4xl 
       pb-5
@@ -31,7 +36,9 @@ export default function SectionLayer({
       border-b-2 
       mb-5 
       border-primaryCol
-    '>{title}</h2>
+      ${titleClass}
+    `}
+    >{title}</h2>
     {children}
   </section>
   )
