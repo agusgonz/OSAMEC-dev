@@ -38,7 +38,7 @@ const index = () => {
             Organizacion al Servicio del Automotor
           </div> 
       </div> 
-      <div className='overflow-hidden relative'>
+      <div className='overflow-hidden relative bg-white'>
         <MainLink />
         <SecondaryLink />
       </div>

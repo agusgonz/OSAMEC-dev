@@ -9,6 +9,7 @@ import Divider from '@/components/Divider'
 import Galeria from '@/components/Galeria'
 import Mapa from '@/components/Mapa'
 import Reviews from '@/components/Reviews'
+import Footer from '@/components/Footer'
 
 const font = Roboto({ subsets: ['latin'], weight: '400' })
 
@@ -23,7 +24,7 @@ export default function Home() {
       <Galeria />
       {/* <Reviews /> */}
       <Contacto />
-      
+      <Footer />
     </div>
   )
 }

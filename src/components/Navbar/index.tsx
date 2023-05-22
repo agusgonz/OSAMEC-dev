@@ -40,11 +40,13 @@ const index = () => {
         ${open ? 'h-100' : ''}
         shadow-md
         
-        `}>
+        `}
+        onClick={() => setOpen(prev => !prev)}  
+      >
         <div 
           className='flex place-items-center justify-between'
           >
-          <Link href='/' className='ml-3 '>
+          <div className='ml-3 '>
             <Image 
               className='lg:w-[80px]'
               src='/icons/media/bosh-logo.svg'
@@ -52,7 +54,7 @@ const index = () => {
               height='90'
               alt='logo'
               />
-          </Link>
+          </div>
           {/* Large Screen */}
           <div 
             className='
@@ -81,7 +83,6 @@ const index = () => {
 
           {/* Phone */}
           <button
-            onClick={() => setOpen(prev => !prev)}
             className='
               mr-3
               w-10
