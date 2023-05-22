@@ -4,7 +4,7 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  ],  
   theme: {
     extend: {
       colors: {
@@ -31,4 +31,10 @@ module.exports = {
     }
   },
   plugins: [],
+  safelist: [
+    'bg-green-500',
+    'bg-gray-600',
+    'bg-blue-600',
+    'bg-purple-700',
+  ]
 }
