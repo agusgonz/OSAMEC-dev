@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className='scroll-smooth'>
       <Head>
-        <title>OSAMEC - Bosch Diesel Service - Bosch Car Service</title>
+        <link rel="shortcut icon" href="/icons/logo-azul-nuevo.ico" />
         <meta 
           name='description'
           content='
