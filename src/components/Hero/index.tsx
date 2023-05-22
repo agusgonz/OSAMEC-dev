@@ -29,15 +29,13 @@ const index = () => {
             text-center 
             text-[0.90rem]
             lg:text-base
-            text-blueCol 
             font-bold 
             relative
             bottom-7
             tracking-wide
+            text-orangeCol
           '>
-            <span className='text-orangeCol'>O</span>rganizacion al 
-            <span className='text-orangeCol'> S</span>ervicio del
-            <span className='text-orangeCol'> A</span>utomotor
+            Organizacion al Servicio del Automotor
           </div> 
       </div> 
       <div className='overflow-hidden relative'>

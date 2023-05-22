@@ -3,23 +3,25 @@ import React, { ReactNode } from 'react'
 interface SectionLayer {
   children: ReactNode
   title: string
+  className: string
 }
 
 export default function SectionLayer({
   children,
-  title
+  title,
+  className
 }: SectionLayer) {
   return (
     <section
-      className='
+      className={`
         w-full
-        bg-blue-200
+        
         inline-block
         px-5
         py-14
         lg:px-10
-        
-      '
+        ${className}
+      `}
   >
     <h2 className='
       text-3xl

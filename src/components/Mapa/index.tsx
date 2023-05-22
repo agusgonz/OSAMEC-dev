@@ -20,7 +20,7 @@ const index = () => {
   }
 
   return (
-    <SectionLayer title='Ubicacion'>
+    <SectionLayer title='Ubicación' className={'bg-blue-200'}>
       <div
         className='
           flex

@@ -19,9 +19,9 @@ export default function Home() {
       <Hero />
       <Divider toId={'nosotros'}/>
       <Nosotros />
-      <Galeria />
-      <Reviews />
       <Mapa />
+      <Galeria />
+      {/* <Reviews /> */}
       <Contacto />
       
     </div>

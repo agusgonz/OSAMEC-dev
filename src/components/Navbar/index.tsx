@@ -38,6 +38,7 @@ const index = () => {
         z-20
         bg-[#ffffff]
         ${open ? 'h-100' : ''}
+        shadow-md
         
         `}>
         <div 
@@ -124,7 +125,7 @@ const index = () => {
         
         
 
-        <div
+        {/* <div
           className='
             w-full
             bg-primaryCol
@@ -137,7 +138,7 @@ const index = () => {
           '
           >
           Lorem ipsum dolor sit amet consectetur elit. 
-        </div>
+        </div> */}
       </nav>
         {/* {open && (
           <div className='absolute w-screen h-screen top-0 left-0 bg-[#000000ad] z-10 transition-all'>

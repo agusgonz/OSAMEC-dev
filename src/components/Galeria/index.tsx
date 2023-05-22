@@ -8,12 +8,15 @@ const index = () => {
 
   return (
     <>
-      <SectionLayer title='Galería'>
+      <SectionLayer title='Galería' className={'bg-blue-100'}>
         <div
             className='
-            overflow-hidden
-            flex
-            justify-center
+              overflow-hidden
+              flex
+              justify-center
+              p-3
+              max-w-7xl
+              mx-auto
             '
           >
             <Contenedor />    
