@@ -22,10 +22,11 @@ const LinkCont: React.FC<LinkContProps> = ({
       rel="noopener noreferrer"
       href={href}
       className={`
-        w-32
+        w-36
         text-${colorTx}
         bg-${colorBg} 
-        p-2
+        p-3
+
         rounded
         inline-block
       `}

@@ -35,25 +35,25 @@ const index = () => {
       colorBg: 'blue-600',
       colorTx: 'white',
     },
-    {
-      name: 'Instagram',
-      icon: '/icons/media/instagram-blanco.svg',
-      href: '/',
-      colorBg: 'purple-700',
-      colorTx: 'white',
-    },
+    // {
+    //   name: 'Instagram',
+    //   icon: '/icons/media/instagram-blanco.svg',
+    //   href: '/',
+    //   colorBg: 'purple-700',
+    //   colorTx: 'white',
+    // },
   ]
 
   return (
     <SectionLayer title={'Contactanos'} 
-      className={'bg-primaryCol text-white '}
+      className={'bg-primaryCol text-white'}
       titleClass={'text-white border-white'}
       id='contacto'
     >
         <ul
           className='
             flex
-            gap-4
+            gap-6
             flex-wrap
             justify-center
             py-10
@@ -76,28 +76,6 @@ const index = () => {
             })
           }
         </ul>
-        {/* <div>
-          <h3>Horarios</h3>
-          <div
-            className='
-              flex
-              flex-col
-              justify-center
-              m-auto
-              pt-6
-              gap-3
-              w-fit
-            '
-          >
-            <DayRow day={'Lunes'} />
-            <DayRow day={'Martes'} />
-            <DayRow day={'Miercoles'} />
-            <DayRow day={'Jueves'} />
-            <DayRow day={'Viernes'} />
-            <DayRow day={'Sabado'} closed/>
-            <DayRow day={'Domingo'} closed/>
-          </div>
-        </div> */}
     </SectionLayer>
   )
 }

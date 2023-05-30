@@ -122,9 +122,12 @@ const Contenedor = () => {
                   w-full
                   h-full
                   object-cover
+
                 '
                 src={image.src}
                 alt={image.alt}
+                quality={100}
+
                 width={300}
                 height={300}
               />

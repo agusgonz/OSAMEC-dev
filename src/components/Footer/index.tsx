@@ -13,8 +13,10 @@ const index = () => {
         flex
         flex-col
         md:flex-row
+        md:gap-5
         items-center
         gap-3
+        justify-center
       '
     >
       <Image 
@@ -27,7 +29,7 @@ const index = () => {
         OSAMEC - Bosch Diesel Service - Bosch Car Service<br/>
         Ramírez 2664, M5500 Mendoza, Argentina
       </div>
-      <div className='grow text-end pr-3'>
+      {/* <div className='grow text-end pr-3'>
         <div className='inline'>Desarollado por </div>
         <a 
           href='https://github.com/agusgonz'
@@ -37,7 +39,7 @@ const index = () => {
         >
           github.com/agusgonz
         </a>
-      </div>
+      </div> */}
     </footer>
   )
 }
