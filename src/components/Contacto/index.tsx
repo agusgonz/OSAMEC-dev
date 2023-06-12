@@ -45,11 +45,12 @@ const index = () => {
   ]
 
   return (
-    <SectionLayer title={'Contactanos'} 
-      className={'bg-primaryCol text-white'}
-      titleClass={'text-white border-white'}
-      id='contacto'
-    >
+    // <SectionLayer title={'Contacto'} 
+    //   className={'bg-primaryCol text-white'}
+    //   titleClass={'text-white border-white'}
+    //   id='contacto'
+    // >
+    <div className={'bg-primaryCol text-white p-3'}  >
         <ul
           className='
             flex
@@ -76,7 +77,8 @@ const index = () => {
             })
           }
         </ul>
-    </SectionLayer>
+    </div>
+    // </SectionLayer>
   )
 }
 

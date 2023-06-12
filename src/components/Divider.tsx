@@ -2,10 +2,11 @@ import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 
 interface DividerProps {
-  toId: string
+  toId?: string
+  right?: boolean
 }
 
-const Divider: React.FC<DividerProps> = ({ toId }) => {
+const Divider: React.FC<DividerProps> = ({ toId, right }) => {
   const [icons, setIcons] = useState<string[]>([]);
 
   useEffect(() => {
@@ -35,12 +36,12 @@ const Divider: React.FC<DividerProps> = ({ toId }) => {
         overflow-hidden
       '>
         <div
-          className='
+          className={`
             flex
             text-white
-            animate-divider-animation
-            w-[130%]
-          '
+            ${right ? 'animate-divider-animation-right' : 'animate-divider-animation-left'}
+            w-[110%]
+          `}
         >
           {icons.map((icon, i) => {
             return <Image 

@@ -8,20 +8,22 @@ const index = () => {
 
   return (
     <>
-      <SectionLayer title='Galería' className={'bg-blue-100'} id='galeria'>
+      {/* <SectionLayer title='Galería' className={'bg-blue-100'} id='galeria'> */}
+      <div className={'bg-blue-200 p-3 py-10'}>
         <div
             className='
               overflow-hidden
               flex
               justify-center
               p-3
-              max-w-7xl
+              max-w-5xl
               mx-auto
             '
           >
             <Contenedor />    
         </div>
-      </SectionLayer>
+      </div>
+      {/* </SectionLayer> */}
 
     </>
   )

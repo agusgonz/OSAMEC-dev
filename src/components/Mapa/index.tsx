@@ -19,7 +19,8 @@ const index = () => {
   }
 
   return (
-    <SectionLayer title='Nuestro Taller' className={'bg-blue-200'} id='mapa'>
+    // <SectionLayer title='Nuestro Taller' className={'bg-blue-200'} id='mapa'>
+    <div className={'bg-blue-200 py-10'}>
       <div
         className='
           flex
@@ -47,6 +48,12 @@ const index = () => {
           <UnderlineText 
             imageSrc={'/icons/media/clock-orange.svg'}
           >Horarios: 8:30-12:30, 13:30-17:30</UnderlineText>
+          <UnderlineText 
+            imageSrc={'/icons/media/questionmark-gray.svg'}
+            className={'text-gray-500 text-md xl:text-md'}
+            nonUnderline
+            underlineColor={'gray-500'}
+          >Consultar horarios feriados</UnderlineText>
 
           {/* <div className='pt-3'>
             <h3>Horarios</h3>
@@ -73,7 +80,8 @@ const index = () => {
         </div>
 
       </div>
-    </SectionLayer>
+    </div>
+    // </SectionLayer>
   )
 }
 

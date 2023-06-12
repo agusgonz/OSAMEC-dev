@@ -23,13 +23,10 @@ const UnderlineText: React.FC<UnderlineTextProps> = ({
       className={`
         ${underlineColor ? `decoration-${underlineColor}`: 'decoration-primaryCol'}
         ${nonUnderline ? null : 'underline' }
-
-        
         underline-offset-2
         pb-5 
         xl:pb-6 
-        ${textBig ? 'text-2xl xl:text-3xl' : 'text-lg xl:text-xl'}
-        
+        ${textBig ? 'text-2xl' : 'text-lg xl:text-xl'}
         ${className}
       `}
     >

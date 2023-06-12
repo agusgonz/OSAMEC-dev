@@ -33,11 +33,13 @@ const Contenedor = () => {
     ]
 
     return imgs.map((img, index) => {
-      return {...img, id: index +1}
+      return {...img, id: index + 1}
     })
   })
 
   const [indexImg, setIndexImg] = useState(1)
+
+  const containerRef = useRef<HTMLUListElement>(null)
 
   function goToImage(q: number) {
 
@@ -98,7 +100,7 @@ const Contenedor = () => {
           snap-mandatory
           ${styles.hideScrollbar}
         `}
-        
+        ref={containerRef}
       
       >
         
@@ -127,9 +129,9 @@ const Contenedor = () => {
                 src={image.src}
                 alt={image.alt}
                 quality={100}
-
                 width={300}
                 height={300}
+                onLoad={() => containerRef.current?.scroll(0, 0)}
               />
             </li>
           )

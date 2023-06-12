@@ -19,14 +19,18 @@ module.exports = {
         xs: '2px'
       },
       keyframes: {
-        dividermove: {
+        dividermoveLeft: {
           '0%': { transform: 'translate(0px)' },
           '100%': { transform: 'translate(-30px, 0px)' },
-          
+        },
+        dividermoveRight: {
+          '0%': { transform: 'translate(-30px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
         }
       },
       animation: {
-        'divider-animation': 'dividermove 2s linear infinite'
+        'divider-animation-left': 'dividermoveLeft 3s linear infinite',
+        'divider-animation-right': 'dividermoveRight 3s linear infinite',
       }
     }
   },

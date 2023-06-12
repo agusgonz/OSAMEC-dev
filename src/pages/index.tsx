@@ -18,13 +18,22 @@ export default function Home() {
     <div className={font.className}>
       <Navbar />
       <Hero />
-      <Divider toId={'nosotros'}/>
-      <Nosotros />
+        <Divider toId='contacto'/>
+      <Contacto />
+        <Divider right toId='mapa'/>
       <Mapa />
+        <Divider />
+      <Contacto />
+        <Divider right toId='galeria'/>
       <Galeria />
-      {/* <Reviews /> */}
+        <Divider />
+      <Contacto />
+        <Divider right toId='nosotros'/>
+      <Nosotros />
+        <Divider />
       <Contacto />
       <Footer />
+      {/* <Reviews /> */}
     </div>
   )
 }
