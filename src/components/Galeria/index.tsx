@@ -9,15 +9,15 @@ const index = () => {
   return (
     <>
       {/* <SectionLayer title='Galería' className={'bg-blue-100'} id='galeria'> */}
-      <div className={'bg-blue-200 p-3 py-10'}>
+      <div className={'w-full'}>
         <div
             className='
               overflow-hidden
               flex
               justify-center
-              p-3
-              max-w-5xl
-              mx-auto
+              w-full
+              h-full
+              max-h-96
             '
           >
             <Contenedor />    

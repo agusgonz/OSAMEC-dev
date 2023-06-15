@@ -1,0 +1,55 @@
+/* Rotis Sans Serif */
+@font-face {
+  font-family: "Rotis Sans Serif";
+  src: url("/fonts/rotis-sans-serif.ttf");
+}
+@font-face {
+  font-family: "Rotis Sans Serif Bold";
+  src: url("/fonts/rotis-sans-serif-bold-65.otf");
+}
+@font-face {
+  font-family: "Rotis Sans Serif Italic";
+  src: url("/fonts/rotis-sans-serif-italic-56.otf");
+}
+@font-face {
+  font-family: "Rotis Sans Serif Light";
+  src: url("/fonts/rotis-sans-serif-light-45.ttf");
+}
+
+.regularFont {
+  font-family: "Rotis Sans Serif";
+}
+.boldFont {
+  font-family: "Rotis Sans Serif Bold";
+}
+.italicFont {
+  font-family: "Rotis Sans Serif Italic";
+}
+.lightFont {
+  font-family: "Rotis Sans Serif Light";
+}
+
+/* Serpentine ICG */
+
+@font-face {
+  font-family: "Serpentine ICG";
+  src: url("/fonts/serpentine-icg.ttf");
+}
+@font-face {
+  font-family: "Serpentine ICG Bold";
+  src: url("/fonts/serpentine-icg-bold.ttf");
+}
+@font-face {
+  font-family: "Serpentine ICG Light";
+  src: url("/fonts/serpentine-icg-light.ttf");
+}
+
+.regularFont_Serpentine {
+  font-family: "Serpentine ICG";
+}
+.boldFont_Serpentine {
+  font-family: "Serpentine ICG Bold";
+}
+.lightFont_Serpentine {
+  font-family: "Serpentine ICG Light";
+}

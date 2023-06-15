@@ -5,6 +5,8 @@ import useWindowSize from '@/hooks/useWindowSize'
 import DayRow from './DayRow'
 import UnderlineText from '../UnderlineText'
 
+import fontstyles from '../../styles/fonts.module.css'
+
 const index = () => {
 
   const windowSize = useWindowSize()
@@ -20,7 +22,7 @@ const index = () => {
 
   return (
     // <SectionLayer title='Nuestro Taller' className={'bg-blue-200'} id='mapa'>
-    <div className={'bg-blue-200 py-10'}>
+    <div className={`bg-blue-200 py-10 ${fontstyles.regularFont}`}>
       <div
         className='
           flex
@@ -38,7 +40,7 @@ const index = () => {
           <UnderlineText 
             imageSrc={'/icons/media/mark-orange.svg'}
             className='md:whitespace-nowrap'
-          >Dirección: Ramírez 2664, M5500 Mendoza</UnderlineText>
+          >Dirección: Ramírez 2664, Cuarta Sección, Mendoza Capital</UnderlineText>
             <UnderlineText 
             imageSrc={'/icons/media/tick-orange.svg'}
           >Lunes a Viernes</UnderlineText>
@@ -54,29 +56,6 @@ const index = () => {
             nonUnderline
             underlineColor={'gray-500'}
           >Consultar horarios feriados</UnderlineText>
-
-          {/* <div className='pt-3'>
-            <h3>Horarios</h3>
-            <div
-              className='
-                flex
-                flex-col
-                justify-center
-                m-auto
-                
-                gap-3
-                w-fit
-              '
-            >
-              <DayRow day={'Lunes'} />
-              <DayRow day={'Martes'} />
-              <DayRow day={'Miercoles'} />
-              <DayRow day={'Jueves'} />
-              <DayRow day={'Viernes'} />
-              <DayRow day={'Sabado'} closed/>
-              <DayRow day={'Domingo'} closed/>
-            </div>
-          </div> */}
         </div>
 
       </div>

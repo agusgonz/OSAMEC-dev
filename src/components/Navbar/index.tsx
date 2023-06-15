@@ -7,16 +7,16 @@ import styles from './navbar.module.css'
 
 const sections = [
   {
-    name: 'Contacto',
+    name: 'Contacta con nosotros',
     link: '/#contacto'
   },
   {
-    name: 'Mapa',
+    name: 'Cómo llegar',
     link: '/#mapa'
   },
   {
-    name: 'Galería',
-    link: '/#galeria'
+    name: 'Quienés somos',
+    link: '/#nosotros'
   },
 ]
 
@@ -46,12 +46,19 @@ const index = () => {
         <div 
           className='flex place-items-center justify-between'
           >
-          <div className='ml-3 '>
+          <div className='ml-3 flex gap-3'>
             <Image 
-              className='lg:w-[80px]'
+              className='py-1'
               src='/icons/media/bosh-logo.svg'
-              width='70'
-              height='90'
+              width='80'
+              height='80'
+              alt='logo'
+              />
+            <Image 
+              className='py-2'
+              src='/icons/media/diesel-service.logo.jpg'
+              width='80'
+              height='80'
               alt='logo'
               />
           </div>

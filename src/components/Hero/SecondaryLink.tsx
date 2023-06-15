@@ -50,13 +50,13 @@ const SecondaryLink = () => {
           ${active ? 'justify-center' : 'justify-start'}
         `}
       >
-        <Image 
+        {/* <Image 
           src='/icons/media/curved-arrow.svg'
           width='20'
           height='20'
           alt='whatsapp Icon'
-        />
-        <div className='pl-3 sm:text-2xl sm:leading-[3.5rem]'>Conoce mas</div>
+        /> */}
+        <div className='pl-3 sm:text-2xl sm:leading-[3.5rem]'>Conoce más</div>
       </div>
     </Link>  
   )

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { use, useState } from 'react'
 
+
 const MainLink = () => {
 
   const [active, setActive] = useState(false)
@@ -51,17 +52,17 @@ const MainLink = () => {
         //   ${active ? 'delay-200' : ''}
 
       >
-        <div className='
-          pr-2 lg:text-3xl lg:leading-[3.5rem]
-        '>
+        <div className={`
+          pr-2 lg:text-3xl lg:leading-[3.5rem] 
+        `}>
           Contactanos
         </div>
-        <Image 
+        {/* <Image 
           src='/icons/media/whatsapp-blanco.svg'
           width='30'
           height='20'
           alt='whatsapp Icon'
-        />
+        /> */}
       </div>
     </Link>
   )

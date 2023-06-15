@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       colors: {
         primaryCol: '#1B262C',
-        darkBlueCol: '#0F4C75',
+        darkBlueCol: '#00587c',
         blueCol: '#3282B8',
         lightBlueCol: '#BBE1FA',
-        orangeCol: '#EF7C12',
+        orangeCol: '#ff8200',
         grayCol:'#eefcff77',
       },
       backdropBlur: {

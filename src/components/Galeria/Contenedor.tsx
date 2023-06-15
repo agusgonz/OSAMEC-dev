@@ -82,7 +82,7 @@ const Contenedor = () => {
     <div
       className='
         relative
-        
+        w-full
       '
     >
       <ButtonG onClick={() => goToImage(-1)}><ChevronLeftIcon color='white'/></ButtonG>  
@@ -98,7 +98,6 @@ const Contenedor = () => {
           scroll-smooth
           snap-x
           snap-mandatory
-          ${styles.hideScrollbar}
         `}
         ref={containerRef}
       
