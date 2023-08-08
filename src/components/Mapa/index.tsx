@@ -6,6 +6,8 @@ import DayRow from "./DayRow"
 import UnderlineText from "../UnderlineText"
 
 import fontstyles from "../../styles/fonts.module.css"
+import { MoveUpRight } from "lucide-react"
+import Link from "next/link"
 
 const index = () => {
 	const windowSize = useWindowSize()
@@ -24,7 +26,6 @@ const index = () => {
 	}
 
 	return (
-		// <SectionLayer title='Nuestro Taller' className={'bg-blue-200'} id='mapa'>
 		<div
 			className={`bg-blue-200 py-10 ${fontstyles.regularFont}`}
 			id="mapa"
@@ -78,10 +79,20 @@ const index = () => {
 					>
 						Consultar horarios feriados
 					</UnderlineText>
+					<Link
+						target="_blank"
+						rel="noopener noreferrer"
+						href={
+							"https://www.google.com/maps/place/OSAMEC+-+Bosch+Diesel+Service+-+Bosch+Car+Service/@-32.8726915,-68.8235023,15z/data=!4m2!3m1!1s0x0:0x1853d60257876b1b?sa=X&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAg_EAA&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAhIEAg"
+						}
+						className="p-3 px-5 bg-blue-400 text-lg xl:text-xl"
+					>
+						Abrir en maps
+						<MoveUpRight className="inline-block w-4 h-4 pl-1 pb-1" />
+					</Link>
 				</div>
 			</div>
 		</div>
-		// </SectionLayer>
 	)
 }
 
