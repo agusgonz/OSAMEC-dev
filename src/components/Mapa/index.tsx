@@ -85,7 +85,7 @@ const index = () => {
 						href={
 							"https://www.google.com/maps/place/OSAMEC+-+Bosch+Diesel+Service+-+Bosch+Car+Service/@-32.8726915,-68.8235023,15z/data=!4m2!3m1!1s0x0:0x1853d60257876b1b?sa=X&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAg_EAA&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAhIEAg"
 						}
-						className="p-3 px-5 bg-blue-400 text-lg xl:text-xl"
+						className="p-3 px-5 bg-blueCol text-white text-lg xl:text-xl"
 					>
 						Abrir en maps
 						<MoveUpRight className="inline-block w-4 h-4 pl-1 pb-1" />

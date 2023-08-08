@@ -24,7 +24,7 @@ const LinkCont: React.FC<LinkContProps> = ({
 			className={`
         w-36
         text-${colorTx}
-        bg-${colorBg} 
+        bg-blueCol
         p-3
 
         
