@@ -27,7 +27,7 @@ const index = () => {
 
 	return (
 		<div
-			className={`bg-blue-200 py-10 ${fontstyles.regularFont}`}
+			className={` py-10 ${fontstyles.regularFont}`}
 			id="mapa"
 		>
 			<div

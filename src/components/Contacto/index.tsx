@@ -44,13 +44,8 @@ const index = () => {
 	]
 
 	return (
-		// <SectionLayer title={'Contacto'}
-		//   className={'bg-primaryCol text-white'}
-		//   titleClass={'text-white border-white'}
-		//   id='contacto'
-		// >
 		<div
-			className={"bg-primaryCol text-white p-3"}
+			className={"bg-black text-white p-3"}
 			id="contacto"
 		>
 			<ul
@@ -77,7 +72,6 @@ const index = () => {
 				})}
 			</ul>
 		</div>
-		// </SectionLayer>
 	)
 }
 
