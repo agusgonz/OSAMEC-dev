@@ -45,7 +45,7 @@ const index = () => {
 
 	return (
 		<div
-			className={"bg-black text-white p-3"}
+			className={" text-white"}
 			id="contacto"
 		>
 			<ul
@@ -54,7 +54,6 @@ const index = () => {
             gap-6
             flex-wrap
             justify-center
-            py-10
           "
 			>
 				{buttonsInfo.map(button => {

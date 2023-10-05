@@ -17,10 +17,13 @@ export default function Home() {
 		>
 			<Navbar />
 			<Hero />
-			<Mapa />
-			<Nosotros />
-			<Contacto />
-			<Footer />
+			<div className="flex flex-col gap-16">
+				<Mapa />
+				<Contacto />
+				<Footer />
+			</div>
+			{/* <Nosotros /> */}
+
 			{/* <Reviews /> */}
 		</div>
 	)

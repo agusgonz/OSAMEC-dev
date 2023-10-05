@@ -27,7 +27,7 @@ const index = () => {
 
 	return (
 		<div
-			className={` py-10 ${fontstyles.regularFont}`}
+			className={` md:px-10 lg:px-16 ${fontstyles.regularFont}`}
 			id="mapa"
 		>
 			<div
@@ -35,19 +35,20 @@ const index = () => {
           flex
           flex-col
           md:flex-row
-          justify-evenly
           items-center
-          p-3
-          
-        "
+					gap-10
+					"
 			>
-				<MyMap
-					size={
-						windowSize.width >= 1000
-							? MapSize
-							: smallMapSize
-					}
-				/>
+				<div>
+					<MyMap
+						size={
+							windowSize.width >= 1000
+								? MapSize
+								: smallMapSize
+						}
+					/>
+				</div>
+
 				<div className="pl-3 pt-5 md:pt-0">
 					<UnderlineText
 						imageSrc={"/icons/media/mark-orange.svg"}
@@ -85,7 +86,7 @@ const index = () => {
 						href={
 							"https://www.google.com/maps/place/OSAMEC+-+Bosch+Diesel+Service+-+Bosch+Car+Service/@-32.8726915,-68.8235023,15z/data=!4m2!3m1!1s0x0:0x1853d60257876b1b?sa=X&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAg_EAA&ved=2ahUKEwjDpfeVlM2AAxX2rJUCHWgfAHMQ_BJ6BAhIEAg"
 						}
-						className="p-3 px-5 bg-blueCol text-white text-lg xl:text-xl"
+						className="p-3 px-5 border-2 border-orangeCol text-lg xl:text-xl hover:bg-orangeCol hover:text-white transition"
 					>
 						Abrir en maps
 						<MoveUpRight className="inline-block w-4 h-4 pl-1 pb-1" />

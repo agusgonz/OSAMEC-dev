@@ -46,8 +46,8 @@ const index = () => {
         `}
 				onClick={() => setOpen(prev => !prev)}
 			>
-				<div className="flex place-items-center justify-between">
-					<div className="ml-3 flex gap-3">
+				<div className="flex place-items-center justify-between md:px-10 lg:px-16">
+					<div className="ml-3 md:ml-0 flex gap-3">
 						<Image
 							className="py-1"
 							src="/icons/media/bosh-logo.svg"
@@ -64,11 +64,10 @@ const index = () => {
 						/>
 					</div>
 					{/* Large Screen */}
-					<div
+					{/* <div
 						className="
               hidden 
               sm:flex
-              mr-3
               
             "
 					>
@@ -92,10 +91,10 @@ const index = () => {
 								</Link>
 							)
 						})}
-					</div>
+					</div> */}
 
 					{/* Phone */}
-					<button
+					{/* <button
 						className="
               mr-3
               w-10
@@ -105,7 +104,7 @@ const index = () => {
             "
 					>
 						{open ? <XMarkIcon /> : <Bars3Icon />}
-					</button>
+					</button> */}
 				</div>
 
 				{open && (

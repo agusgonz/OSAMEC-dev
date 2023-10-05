@@ -7,7 +7,7 @@ const index = () => {
 			className="
         w-full
         bg-black
-        p-3
+        py-8
         text-white
         text-sm
         flex
@@ -15,7 +15,7 @@ const index = () => {
         justify-center
       "
 		>
-			<div className="">
+			<div className="text-center">
 				OSAMEC - Bosch Diesel Service - Bosch Car Service
 				<br />
 				Ramírez 2664, M5500 Mendoza, Argentina

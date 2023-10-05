@@ -12,9 +12,7 @@ const index = () => {
 			<div
 				className="
           inline-block
-          px-5
-          py-14
-          lg:px-10
+					md:px-10 lg:px-16
           xl:flex 
           xl:flex-col
           xl:justify-center
