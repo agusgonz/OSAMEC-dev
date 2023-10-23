@@ -36,6 +36,7 @@ const index = () => {
           flex-col
           md:flex-row
           items-center
+					justify-center
 					gap-10
 					"
 			>
